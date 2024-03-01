@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Toy store for kids">
+    <meta name="keywords" content="Choochoo, Toy store, School project">
+    <meta name="author" content="Aljosa Skrinjar">
+    <title>Choochoo</title>
+
+    <!--Include Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Include FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--Include my Css style-->
+    <link rel="Stylesheet" href="style.css">
+      
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mb-4" >
+            <a class="navbar-brand" href="index.html" title="home screen">
+                <img src=images/LOGO.png alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="pages/gallery.html" title="gallery">Galerija</a>
+                    <a class="nav-link" href="pages/shop.html" title="Store for toy trains">Trgovina</a>
+                    <a class="nav-link" href="mailto:info@choochoo.com" title="mail generator">Pisite nam</a>
+                    <a class="nav-link" href="pages/wish.html" title="wish to have that">Moj vlakec</a>
+                </div>
+            </div>
+
+            <button id="themeToggle" class="btn theme-toggle-button" style="background-color: transparent;">
+                <span class="icon-holder">
+                    <i class="fas fa-moon" id="moonIcon" style="display: block;"></i>
+                    <i class="fas fa-sun" id="sunIcon" style="display: none;"></i>
+                </span>
+            </button>
+
+        </div>
+    </nav>  
+    
+ <!--break-->
+      
+    <div class="container-fluid">
+            <div class="text-wrap">
+                <img src="images/BoyTrain1000.png" style="padding: 10px 50px 20px;" alt="Boy train 1000">
+                <h2>Boy Train 1000</h2>
+                <p>Once upon a time, in the bustling town of Whistlestop, there was a special toy train known as the Boy Train 1000. This wasn't just any toy train; it was crafted with extraordinary care and had a unique charm that made it stand out from all the other toys in the toy shop.</p>
+                <p>The Boy Train 1000 was made of shiny, durable metal and painted in bright, cheerful colors. Each car of the train had a different design, making it a vibrant and exciting sight. The engine, painted in a bold red with golden stripes, had a friendly face on the front, always seeming to smile at those who looked its way.</p>
+                <p>In the toy shop, Boy Train 1000 was admired by all the children who visited. However, it longed for a real adventure outside the confines of the shop. Its greatest dream was to explore the wide world and experience the joy of being a beloved toy to a child.</p>
+                <p>One day, a little boy named Jamie visited the toy shop with his parents. Jamie's eyes sparkled with excitement as he saw the Boy Train 1000. It was love at first sight. He knew he had found the perfect toy. His parents bought the train for him, and thus began the grand adventures of Jamie and the Boy Train 1000.</p>
+                <p>Jamie and the Boy Train 1000 shared many adventures together. They explored the vast landscapes of the living room, the rugged terrain of the backyard, and the mysterious regions under the bed. The train was not just a toy to Jamie; it was his companion and friend.</p>
+                <p>As they played, the Boy Train 1000 would often share stories with Jamie. In a soft, almost magical voice that only Jamie could hear, it told tales of other toy trains from far-off lands, of grand train stations and tracks that reached the sky. Jamie’s imagination soared with every story, taking him to places he had never been.</p>
+                <p>One day, Jamie decided to make a real track for the Boy Train 1000. With books, wooden blocks, and various other objects, he created a magnificent track that looped around his room. The Boy Train 1000 chugged along the track, its wheels clicking merrily, its headlight shining brightly, and its whistle blowing joyfully. It was the happiest day in the life of the Boy Train 1000.</p>
+                <p>Years passed, and Jamie grew older. The Boy Train 1000, now a treasured keepsake, rested on a shelf in Jamie's room, watching over him. It was no longer just a toy; it was a symbol of childhood, adventure, and the unbreakable bond of friendship.</p>
+                <p>The story of the Boy Train 1000 became a legend in the town of Whistlestop, a tale passed down from generation to generation. It was a reminder that sometimes, the simplest toys could bring the greatest joy and create the most enduring memories. And so, the Boy Train 1000 continued to inspire children everywhere, always ready to embark on new adventures with a new friend.</p>
+            </div>
+    </div>
+      
+    <div class="footer">  
+        <footer class="foot">
+            <p>&copy;Copyright, 01.09.2024, Aljosa Skrinjar</p>
+        </footer>
+    </div>   
+
+    <!--Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--My script for dark/light mode -->
+    <script src="theme-toggle.js"></script>
+
+  </body>
+</html>

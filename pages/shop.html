@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="sl" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Toy store for kids">
+    <meta name="keywords" content="Choochoo, Toy store, School project">
+    <meta name="author" content="Aljosa Skrinjar">
+    <title>Choochoo</title>
+      
+    <!--Include Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Include FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--Include my Css style-->
+    <link rel="Stylesheet" href="../style.css">
+      
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mb-4" >
+            <a class="navbar-brand" href="../index.html" title="home screen">
+                <img src=../images/LOGO.png alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="gallery.html" title="gallery">Galerija</a>
+                <a class="nav-link" href="shop.html" title="Store for toy trains">Trgovina</a>
+                <a class="nav-link" href="mailto:info@choochoo.com" title="mail generator">Pisite nam</a>
+                <a class="nav-link" href="wish.html" title="wish to have that">Moj vlakec</a>
+                </div>
+            </div>
+
+            <button id="themeToggle" class="btn theme-toggle-button" style="background-color: transparent;">
+                <span class="icon-holder">
+                    <i class="fas fa-moon" id="moonIcon" style="display: block;"></i>
+                    <i class="fas fa-sun" id="sunIcon" style="display: none;"></i>
+                </span>
+            </button>
+
+        </div>
+    </nav>  
+
+<!--break-->
+
+       <div class="album py-5 bg">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="img-back" src="../Galerija/choochoo5.png" alt="Red train numbered 5">
+                <div class="card-body">
+                  <p class="card-text">Zabavajte se z našo vrhunsko, živobarvno rdečo lokomotivo, ki prinaša veselje v igralne ure vašega otroka! Ta očarljiv plastični model vlaka, oštevilčen z živahnim rumenim številom 5, je oblikovan, da oživi domišljijo vašega malčka. Z izrazitim veselim obrazom, ki krasno izstopa na sprednji strani lokomotive, ta igrača spodbuja ustvarjalno igro in razvija čustveno inteligenco.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="img-back" src="../Galerija/ChoochooBasic.png" alt="Lively orange and green locomotive">
+                <div class="card-body">
+                  <p class="card-text">Odkrijte razburljiv svet železnic z našo izjemno živahno oranžno in zeleno lokomotivo, ki prihaja skupaj z barvito sestavo vagonov. Ta klasični igračarski vlak, ki je zasnovan z bogatimi detajli in klasičnim videzom, je kot nalašč za male železničarje, ki želijo povedati svoje zgodbe na tirih.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="img-back" src="../Galerija/ChoochooExpress.png" alt="Classic Express">
+                <div class="card-body">
+                  <p class="card-text">Vstopite v čarobni svet igre z našo klasično Lokomotivo Express, ki je kot nalašč za vse mlade ljubitelje vlakov in bodoče inženirje. Ta igrača je zasnovana z očarljivimi podrobnostmi, kot so sijoči rdeči okraski in zlati poudarki, ki ustvarjajo avtentičen videz starodobnega parnega vlaka.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn" style="background-color: #cd3232">Kupi</button>
+                    </div>
+                    <small class="text-muted" style="color: #cd3232 !important;"><b>Ni na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="img-back" src="../Galerija/ChoochooExpressV2.png" alt="Classic Express second version">
+                <div class="card-body">
+                  <p class="card-text">Z veseljem predstavljamo Lokomotivo Express še bolj dodelano in elegantno kot kdajkoli prej! Ta zadnja izdaja klasičnega vlaka združuje nostalgičen čar s sodobnim pridihom, kar zagotavlja, da bo ta igrača hitro postala najljubši dodatek k igralni kolekciji vašega otroka.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="img-back" src="../Galerija/ChoochooGirl.png" alt="Colorful toy train">
+                <div class="card-body">
+                  <p class="card-text">Predstavljamo vam popolnoma nov svetel in barvit igračarski vlak, ki je zasnovan, da prinese nasmeh na obraz vašega otroka z vsako igralno seanso! Ta živahen vlak s svojo paletno kombinacijo rumene, roza in modre barve prinaša svežino in igrivost v klasično igro z vlakci.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="img-back" src="../Galerija/ChoochooKids.png" alt="Train on a string">
+                <div class="card-body">
+                  <p class="card-text">Odkrijte igračarski vlak, ki je popolnoma prilagojen za spodbujanje učenja in zabave za vaše najmlajše! Ta pisani vlak je prava paleta veselja z živahnimi rdečimi, zelenimi, rumenimi in modrimi odtenki, ki so zagotovo pritegnili otroško pozornost.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+            <img class="img-back" src="../Galerija/ChoochooLightning.png" alt="Lightning train">
+
+                <div class="card-body">
+                  <p class="card-text">Predstavljamo vam našo najnovejšo igračo - Lokomotiva Thunder, ki združuje klasično oblikovanje z moderno tehnologijo, da otrokom prinese edinstveno igralno izkušnjo. Ta impresivna parna lokomotiva ponaša s čudovito kombinacijo sijoče črne, bleščeče zlate in živahno rdeče barve, ki bo zagotovo pritegnila pozornost in navdušenje.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+            <img class="img-back" src="../Galerija/ChoochooPower.png" alt="Express Power Train">
+
+                <div class="card-body">
+                  <p class="card-text">Pripravite se, da bo vaše otroke očarala ta čudovita rdeča Express Train igrača, ki združuje klasičen dizajn s sodobnimi igralnimi funkcijami. Ta svetleča rdeča lokomotiva, s svojimi sijočimi črnimi in zlatimi poudarki, je kot izrezana iz druge dobe, a z vso zabavo, ki jo sodobne igrače lahko ponudijo.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+            <img class="img-back" src="../Galerija/ChoochooRide.png" alt="self propelled train">
+
+                <div class="card-body">
+                  <p class="card-text">Pridružite se nam na veseli vožnji z našo ljubko zeleno igračarsko lokomotivo, ki je kot nalašč za vaše najmanjše! Ta prijazen vlakec, obarvan v mehkih zelenih in modrih tonih z zabavnimi črnimi detajli, ima prijazno nasmejan obraz, ki bo zagotovo pritegnil otroško pozornost.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="buy-btn">Kupi</button>
+                    </div>
+                    <small class="text-muted"><b>Na zalogi</b></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+          </div>  
+        </div>   
+      </div> 
+      
+    <div class="footer">  
+        <footer class="foot">
+            <p>&copy;Copyright, 01.09.2024, Aljosa Skrinjar</p>
+        </footer>
+    </div> 
+
+    <!--Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--My script for dark/light mode -->
+    <script src="../theme-toggle.js"></script>
+
+  </body>
+</html>

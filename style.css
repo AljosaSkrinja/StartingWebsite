@@ -1,0 +1,70 @@
+/* Every page---------------------------------------------------------------------*/
+.footer {
+    /*used in <footer>*/
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+.navbar-brand{ 
+    /*used in <van>/<a>*/
+    margin-right: 10px;
+}
+.row{
+    /*problem with rows going out of a page*/
+    margin-right: 0;
+}
+.itm-p{
+    /*padding for images inside a row under pages/gallery.html*/
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.img-back{
+    /*background gradient used inside the pages/shop.html*/
+    background: radial-gradient(black, #55595c, transparent);
+    padding: 10px;
+}
+.text-muted{
+    /*brute-fix for color in a bootstrap card under pages/shop.html*/
+    color: #32cd32 !important;
+}
+.buy-btn {
+    /*custom 3D looking btn for page/shop.html*/
+    background-color: #45a049;
+    color: white;
+    text-decoration-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px;
+}
+.buy-btn:hover {
+    /*dynamic web look for buy-btn under page/shop.html*/
+    background-color: #4db251;
+    color: inherit;
+    transform: scale(1.1);
+}
+@media (min-width: 768.01px) {
+    /*in index allow wrapping around img for big screen*/
+    .text-wrap img {
+    float: left;
+    margin-right: 20px;
+    }
+}
+.form-group{
+    /*add-on to form-groups under pages/wish.html*/
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+

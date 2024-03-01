@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Toy store for kids">
+    <meta name="keywords" content="Choochoo, Toy store, School project">
+    <meta name="author" content="Aljosa Skrinjar">
+    <title>Choochoo</title>
+    <!--Include Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Include FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--Include my Css style-->
+    <link rel="Stylesheet" href="../style.css">
+    
+  </head>
+  <body>
+    
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mb-4" >
+            <a class="navbar-brand" href="../index.html" title="home screen">
+                <img src=../images/LOGO.png alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="gallery.html" title="gallery">Galerija</a>
+                <a class="nav-link" href="shop.html" title="Store for toy trains">Trgovina</a>
+                <a class="nav-link" href="mailto:info@choochoo.com" title="mail generator">Pisite nam</a>
+                <a class="nav-link" href="wish.html" title="wish to have that">Moj vlakec</a>
+                </div>
+            </div>
+
+            <button id="themeToggle" class="btn theme-toggle-button" style="background-color: transparent;">
+                <span class="icon-holder">
+                    <i class="fas fa-moon" id="moonIcon" style="display: block;"></i>
+                    <i class="fas fa-sun" id="sunIcon" style="display: none;"></i>
+                </span>
+            </button>
+
+        </div>
+    </nav>  
+
+
+      
+<form>
+<!--Ime-->
+      <div class="form-group mt-4">
+          <label>Ime Vlakca</label>
+          <input type="text" class="form-control" placeholder="Choochoo Express">
+      </div>
+<!--tip-->
+      <div class="form-group">
+          <label>Tip vlakca</label>
+          <input type="text" class="form-control" placeholder="Kaksen tip vlaka zelite, da naredimo!">
+      </div>
+<!--barve-->
+    <div class="form-group">
+        <label>Izberi Barve</label>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label" >Rdeča</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label" >Oranžna</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >Rumena</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >Zelena</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >Modra</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >Indigo</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >Rožnata</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >bela</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" >
+            <label class="form-check-label" >črna</label>
+        </div>    
+
+    </div>
+<!--opis-->
+    <div class="form-group">
+        <label >Opis vlakca</label>
+        <textarea class="form-control" rows="4" placeholder="V čarobnem gozdu, kjer se drevesa svetijo z barvami mavrice in živali nežno govorijo, potuje mali vlakec po imenu Lumina. Njegovo telo je izdelano iz bleščečega lesa, ki se svetlika ob vsakem zavoju proge."></textarea>
+    </div>    
+<!--kontakt-->
+    <div class="form-group">
+        <label >Email naslov</label>
+        <input type="email" class="form-control" placeholder="vlakec@choochoo.com">
+    </div>
+<!--skica-->
+    <div class="form-group">
+        <div>
+            <label>Dodaj sliko/skico vlakca</label>
+        </div>
+        <input type="file" class="custom-file-input">
+        <label class="custom-file-label">Izberi datoteko</label>
+    </div>
+<!--submit btn-->
+    <div class="form-group">
+        <button type="submit" class="buy-btn">Oddaj predlog</button> 
+    </div>
+    
+</form>
+
+    <div class="footer">  
+        <footer class="foot">
+            <p>&copy;Copyright, 01.09.2024, Aljosa Skrinjar</p>
+        </footer>
+    </div>   
+      
+
+    <!--Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--My script for dark/light mode -->
+    <script src="../theme-toggle.js"></script>
+
+  </body>
+</html>
